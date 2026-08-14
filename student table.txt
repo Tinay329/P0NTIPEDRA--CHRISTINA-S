@@ -1,0 +1,18 @@
+CREATE DATABASE bsis3a;
+
+CREATE TABLE Student (
+    StudentID VARCHAR(10) PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Email VARCHAR(225),
+    Course VARCHAR(50),
+    Username VARCHAR(225),
+    PASSWORD VARCHAR(225)
+);
+   
+INSERT INTO Student (StudentID, FirstName, LastName, Email, Course, Username, PASSWORD)VALUES
+('S001', 'Christina', 'Pontipedra', 'christinapontipedra89@gmail.com', 'BSIS-3A', 'tinay29', 'tinay329'),
+('S002', 'Mae Fear', 'Arcilla', 'maefeararcilla82@gmail.com', 'BSIS-3A', 'mae82', 'mae321'),
+('S003', 'Fatima', 'Baral', 'fatimabaral67@gmail.com', 'BSIS-3A', 'emang67', 'emang867'),
+('S004', 'Elisa Mae', 'Barra', 'elisamaebarra08@gmail.com', 'BSIS-3A', 'elisa08', 'elisa081'),
+('S005', 'Clarize', 'Borromeo', 'clarizeborrome36@gmail.com', 'BSIS-3A', 'cla36', 'cla376');
